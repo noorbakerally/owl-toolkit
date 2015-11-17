@@ -46,7 +46,7 @@ public class OWLDLExpressivity {
 		Set<OWLOntology> h = new HashSet<OWLOntology>();
 		h.add(ontology);
 		DLExpressivityChecker c = new DLExpressivityChecker(h);
-		System.out.println("DL Expressivity:"c.getDescriptionLogicName());		
+		System.out.println("DL Expressivity:"+c.getDescriptionLogicName());		
 	}
 
 }
